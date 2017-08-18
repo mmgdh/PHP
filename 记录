@@ -2,3 +2,7 @@
       成功安装appserv，中途因为之前安装过mysql导致登录PhpMyAdmin时出现错误，后卸载mysql后解决。成功创建第一个PHP文件输出“欢迎加入PHP的大家庭”。
       1.PHP常用语句：echo，用于输出字符串到网页，需要；结尾。
       2.<?php  >是PHP的标记符。
+2017年8月18日
+     1.直接输date("Y-m-d H:i:s")会弹出Warning,因为PHP默认时间是格林威治标准时间。可在上方输入data_default_timezone_set("PRC")设为中国的时区。
+     2.echo里的输入相当于在body里出现，所以可以echo"<br>";
+     3.发现用http://127.0.0.1:82/打开文件时，如果php文件的名字是index则会直接打开该文件，否则打开一个列表显示该文件夹里的各个文件。
