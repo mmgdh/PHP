@@ -13,6 +13,7 @@
 	echo "北京时间：".date("Y年m月d日 H时i分s秒");
 	echo "<br>";
 	echo "当前时区：".date_default_timezone_get();
+	//2017年8月19日
 	//测试各种语句效果
 	echo '<br>	<img src="images/top.jpg" width="92" height="92">';
 	echo "<br>当前文件路径为：".__FILE__;
